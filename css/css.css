@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;list-style: none;font-family: 'Tai Heritage Pro', serif;color: #555;}
+    a{text-decoration: none;color: inherit;}
+    body::-webkit-scrollbar {display: none;}
+    header{width: 100%;height:60px;background-color:#64b9b2;position:fixed;left: 0;top: 0;z-index: 99;}
+    #header_box{width: 1400px;height: 60px;margin: auto;}
+    #logo{width: 200px;height: 60px;line-height: 60px;float: left;text-align: center;}
+    #logo>img{width:160px;margin: auto;vertical-align: middle;}
+    #header_icon_box{float: right;width:200px;height: 60px;}
+    #header_icon_box>li{float: left;width:24px;line-height: 60px;margin-left:10px;}
+    #header_icon_box>li:nth-child(1){margin-left: 80px;}
+    #header_icon_box>li>img{width: 100%;vertical-align: middle;}
+    #header_menu{width:1000px;height: 60px;display: inline-block;margin: auto;text-align: center;}
+    #header_menu>li{width: 120px;height: 60px;display: inline-block;margin: 0 20px;line-height: 60px;font-weight: 400;color: #000;font-size: 18px;letter-spacing: -0.5px;}
+
+    /*  */
+    #section1{width: 100%;height: 1000px;}
+    #section1_box{width: 100%;height: 1000px;background:linear-gradient(to bottom,#64b9b2 40%,#fff 100%);overflow: hidden;position: fixed;}
+    #section1_box>h2{margin-top:300px;margin-right: 300px;font-size:150px;line-height: 150px;color: #000;font-weight: 400;font-family: 'Old Standard TT', serif;letter-spacing: -10px;text-align: right;}
+    #section1_box>h2>span{color: #000;margin-right:100px;}
+    #section1_box>p{color: #000;font-size:18px;line-height: 20px;text-align: right;margin-right: 300px;margin-top: 200px;}
+    #slide_left{position: absolute;left: 0;top: 1000px;}
+    #slide_left>li{width:460px;height:640px;margin-bottom: 20px;}
+    #slide_left>li:last-child{margin-bottom:100px;}
+    #slide_right{position: absolute;right: 0;bottom:1000px;}
+    #slide_right>li{width: 460px;height: 640px;margin-bottom: 20px;}
